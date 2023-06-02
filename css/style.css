@@ -1,0 +1,746 @@
+/*cuerpo y etiquetas sin especificacion*/
+
+body{
+    background-color: lightgray;
+    font-size: 16px;
+    line-height: 1,5;
+    margin: 0;
+    padding: 0;
+}
+h3{
+    text-align: center;
+}
+
+footer{
+    position: absolute;
+}
+
+
+/*Navbar*/
+
+.bg{
+    background-color: #212529;
+}
+.navbar{
+    padding: 0;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+@media(max-width:768px){
+    .ul-bg {
+        background-color: black;
+    }
+}
+nav .nav-item a:hover{
+    transform: scale(1.1);
+    color: red !important
+}
+.img:hover{
+    transform: scale(1.2);
+}
+/*Fin de la navbar*/
+
+/*Contenido de la seccion de inicio*/
+/*imagenes de la facultad y*/
+
+.contenido-principal{
+    margin: 20px;
+    text-align: justify;
+}
+
+.lista{
+    text-align: justify;
+    margin: 25px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+.imgen{
+    width: 400px;
+    height: 250px;
+    margin: 0 10px;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:800px) {
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .imgen{
+        margin-bottom: 10px;
+    }
+}
+
+/*Carrusel Chevrolet Corvette z06 y diseño responsivo*/
+
+.Corvette{
+    height: 720px;
+    width: 1300px;
+}
+#Corvette1{
+    background-image: url(../img/2006-chevrolet-corvettez06-05-1-1554910266.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Corvette2{
+    background-image: url(../img/Used-2006-Chevrolet-Corvette-Z06-1639086082.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Corvette3{
+    background-image: url(../img/Chevrolet-Corvette_Z06-2006-800-21.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width:1280px) {
+    .Corvette{
+        width: 1280px;
+    }
+}
+@media (max-width:1024px) { 
+    .Corvette{
+        width: 1024px;
+        height: 550px;
+    }
+}
+@media (max-width:768px) {
+    .Corvette{
+        width: 768px;
+        height: 460px;
+    }
+}
+@media (max-width:460px){
+    .Corvette{
+        width: 460px;
+        height: 320px;
+    }
+    .carousel-caption{
+        height: 125px;
+    }
+}
+/*Fin del carrusel*/
+
+/* Carrusel Chevrolet x Corvette y diseño responsivo*/
+
+.Chevrolet{
+    height: 720px;
+    width: 1300px;
+}
+#Chevrolet1{
+    background-image: url(../img/1366_2000.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Chevrolet2{
+    background-image: url(../img/2024-chevrolet-corvette-e-ray-3lz-012.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Chevrolet3{
+    background-image: url(../img/1969-chevrolet-camaro-viral-by-finale-speed.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Chevrolet4{
+    background-image: url(../img/chevrolet-corvette-c8r-002-1570113769.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width:1280px) {
+    .Chevrolet{
+        width: 1280px;
+    }
+}
+@media (max-width:1024px) { 
+    .Chevrolet{
+        width: 1024px;
+        height: 550px;
+    }
+}
+@media (max-width:768px) {
+    .Chevrolet{
+        width: 768px;
+        height: 460px;
+    }
+}
+@media (max-width:460px){
+    .Chevrolet{
+        width: 460px;
+        height: 320px;
+    }
+    .carousel-caption{
+        height: 125px;
+    }
+}
+
+/*Fin del carrusel*/
+
+
+/*Columnas responsivas: Chevrolet x Corvette*/
+/*Contenido de Chevrolet x Corvette*/
+
+.contenido{
+    margin: 3px;
+}
+.caja{
+    display: table-cell;
+    padding: 10px;
+}
+.caja:nth-child(1) h1{
+    background: #ffc107;
+    text-align: center;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.caja:nth-child(2) h1{
+    background: #dc3545;
+    text-align: center;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.caja:nth-child(1) p{
+    color: black;
+    text-align: justify;
+}
+.caja:nth-child(2) p{
+    color: black;
+    text-align: justify;
+}
+@media (min-width:768px){
+    .caja p{
+        line-height: 30px;
+    }
+}
+@media (min-width:1024px){
+    .contenido{
+        width: 1000px;
+        margin: auto;
+    }
+    .caja p{
+        line-height: 40px;
+    }
+}
+@media(min-width:1280px){
+    .contenido{
+        width: 1200px;
+    }
+}
+
+.stats{
+    color: black;
+    text-align: center;
+}
+.stats:hover{
+    color: #ffc107
+}
+
+.logo{
+    width: 300px;
+    height: 200px;
+    margin: 0 170px 0 ;
+}
+.logo:hover{
+    transform: scale(1.1);
+}
+
+@media (max-width:460px){
+    .logo{
+        width: 150px;
+        height: 100px;
+        margin: 0 35px;
+    }
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 25px;
+    text-align: justify;
+}
+
+.Cruze{
+    text-align: center;
+    margin: 35px;
+}
+.container6{
+    display: flex;
+    justify-content: center;
+}
+iframe{
+    width: 560px;
+    height: 315px;
+    margin: 0 10px;
+}
+@media (max-width:800px){
+    .container6{
+        flex-direction: column;
+        align-items: center;
+    }
+    iframe{
+        width: 440px;
+        height: 300px;
+        margin-bottom: 10px;
+    }
+}
+
+/* Pie de pagina Inicio*/
+
+.pie-pagina{
+    width: 100%;
+    background: #212529;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box figure img:hover{
+    transform: scale(1.1);
+}
+.pie-pagina .grupo-1 .box h2{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+.pie-pagina .grupo-1 .box h3{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+    text-align: left;
+}
+.pie-pagina .grupo-1 .box p{
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #212529;
+    margin-right: 10px;
+    background-color: lightgray;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: red
+}
+.pie-pagina .grupo-2{
+    background-color: black;
+    padding: 15px 10px;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px) {
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
+
+/* Pie de pagina Chevrolet x Corvette*/
+.pie-pagina2{
+    width: 100%;
+    background-color:#adb5bd;
+}
+.pie-pagina2 .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.pie-pagina2 .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina2 .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina2 .grupo-1 .box figure img:hover{
+    transform: scale(1.1);
+}
+.pie-pagina2 .grupo-1 .box h2{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+.pie-pagina2 .grupo-1 .box h3{
+    color: black;
+    margin-bottom: 25px;
+    font-size: 20px;
+    text-align: left;
+}
+.pie-pagina2 .grupo-1 .box p{
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.pie-pagina2 .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    margin-right: 10px;
+    background-color: #212529;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina2 .grupo-1 .red-social a:hover{
+    color: #ffc107
+}
+.pie-pagina2 .grupo-2{
+    background-color: #212529;
+    padding: 15px 10px;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+.pie-pagina2 .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px) {
+    .pie-pagina2 .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
+
+/*Pie de pagina Corvette*/
+
+.pie-pagina3{
+    width: 100%;
+    background-color:#6c757d;
+}
+.pie-pagina3 .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+.pie-pagina3 .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina3 .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina3 .grupo-1 .box figure img:hover{
+    transform: scale(1.1);
+}
+.pie-pagina3 .grupo-1 .box h2{
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+.pie-pagina3 .grupo-1 .box h3{
+    color: black;
+    margin-bottom: 25px;
+    font-size: 20px;
+    text-align: left;
+}
+.pie-pagina3 .grupo-1 .box p{
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.pie-pagina3 .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    margin-right: 10px;
+    background-color: #212529;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina3 .grupo-1 .red-social a:hover{
+    color: #dc3545;
+}
+.pie-pagina3 .grupo-2{
+    background-color: #212529;
+    padding: 15px 10px;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+.pie-pagina3 .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px) {
+    .pie-pagina3 .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
+
+/*Contenido de Corvette*/
+
+.Titulo{
+    color: black;
+    text-align: left;
+    margin-left: 30px;
+}
+.Titulo:hover{
+    color: #dc3545;
+}
+.container3{
+    display: flex;
+    justify-content: right;
+    margin-right: 30px;
+}
+@media (max-width:800px) {
+    .container3{
+        flex-direction: column;
+        align-items: center;
+        margin: 0%;
+    }
+}
+.text{
+    text-align: center;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+/*Caracteristicas*/
+
+.Titulo2{
+    color: black;
+    text-align: right;
+    margin-right: 50px;
+}
+.Titulo2:hover{
+    color: #dc3545;
+}
+.caracteristicas{
+    width: 150px;
+    margin: 30px;
+}
+.caracteristicas:hover{
+    transform: scale(1.2);
+}
+.container4{
+    display: flex;
+    justify-content: left;
+    margin-right: 30px;
+}
+@media (max-width:800px) {
+    .container4{
+        flex-direction: column;
+        align-items: center;
+        margin: 0%;
+    }
+}
+.Titulo3{
+    text-align: center;
+}
+.Titulo3:hover{
+    color: #dc3545;
+}
+.container5{
+    display: flex;
+    justify-content: center;
+}
+.imgen2{
+    width: 460px;
+    height: 310px;
+    margin: 0 10px;
+}
+@media (max-width:800px) {
+    .container5{
+        flex-direction: column;
+        align-items: center;
+    }
+    .imgen2{
+        margin-bottom: 10px;
+    }
+}
+
+.Cor{
+    text-align: center;
+    margin: 35px;
+}
+
+
+/*Contactanos*/
+.Titulo4{
+    text-align: center;
+}
+.Titulo5{
+    text-align: left;
+    margin-left: 25px;
+}
+.container7{
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (max-width:800px){
+    .container7{
+        flex-direction: column;
+        align-items: center;
+    }
+    .iframe2{
+        width: 440px;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+}
+.container8{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.imagen-contacto{
+    width: 1200px;
+}
+@media (max-width:800px){
+    .container8{
+        align-items: center;
+    }
+    .imagen-contacto{
+        width: 720px;
+    }
+}
+@media (max-width:460px){
+    .container8{
+        align-items: center;
+    }
+    .imagen-contacto{
+        width: 440px;
+    }
+}
+.container-form{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    margin-top: 90px;
+}
+.container-form h2{
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+.container-form ul{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.container-form a{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 15px;
+    color: black;
+    font-weight: 700;
+}
+.container-form a i{
+    color: #ffc107;
+    margin-right: 10px;
+}
+.container-form form .campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px solid #ffc107;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+.container-form form textarea{
+    max-width: 530px;
+    min-width: 300px;
+    min-height: 140px;
+    max-height: 150px;
+}
+.container-form .btn-enviar{
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    background-color: #ffc107;
+    color: black;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.container-form .btn-enviar:hover{
+    background-color: #c5960b;
+}
+@media (max-width:800px){
+    .container-form{
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        width: 600px;
+    }
+}
+@media (max-width:460px){
+    .container-form{
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        width: 400px;
+    }
+    .container-form form .campo{
+        width: 340px;
+    }
+}
